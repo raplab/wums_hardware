@@ -18,14 +18,14 @@
 |1|Profilkonsole|Rose Krieger|193000298C66|-|
 |1|Vesa Halterung|Rose Krieger|94371|-|
 |1|Monitorhalter KG|Rose Krieger|193000042C11|-|
-|4|M4x16 Schrauben|any|-|für Bildschirmmontage|
-|2|M6x16 Schrauben|any|-|für Montage Aluplatte / Halter|
-|2|Unterlagsscheiben passend zu M4x16 Schrauben|any|für Montage Aluplatte / Halter|-|
+|4|M4x16 Screws|any|-|-|
+|2|M6x16 Screws|any|-|-|
+|2|Washers for M4x16 |any|-|-|
 
 ## DIY Parts
 see -> parts to manufacture
 | Quantity | Item | Material/Technology | File |
 |-|-|-|-|
 |1|3D Printed Rasperry Pi Cover|PLA,3D Printing|card reader cover.stl|
-|1|Shield|Teflon, Milling|shield.dxf|
+|1|Shield|POM, Milling|shield.dxf|
 |1|Alu Platte|Aluminium, Milling|alu.dxf|
