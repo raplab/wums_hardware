@@ -21,6 +21,7 @@
 |4|M4x16 Screws|any|-|-|
 |2|M6x16 Screws|any|-|-|
 |2|Washers for M4x16 |any|-|-|
+|1| Aluminium Case for Rasperry Pi |Digitec|Joy-it Pi 4B|https://www.digitec.ch/de/s1/product/joy-it-pi-4b-aluminium-gehaeuse-gehaeuse-elektronikzubehoer-gehaeuse-12043200?supplier=406802|
 
 ## DIY Parts
 see -> parts to manufacture
