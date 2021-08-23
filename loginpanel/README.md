@@ -10,6 +10,7 @@
 |1|Raspberry Pi 4 Model B - 2GB| PI-Shop|https://www.pi-shop.ch/raspberry-pi-4-model-b-2gb|
 |1|Raspberry Pi 15W Netzteil, EU, Weiss|Pi-Shop|https://www.pi-shop.ch/raspberry-pi-15w-power-supply-eu-weiss|
 |1|MicroSD Card 32GB|Pi-Shop|https://www.pi-shop.ch/sandisk-microsdhc-karte-ultra-uhs-i-a1-32-gb|
+|1|OMNIKEY® 5513 Reader Board HF|NFC Webshop|https://www.nfcwebshop.at/omnikeyr-5513-reader-board-hf-mifare-easy.html|
 
 ## Hardware
 | Quantity | Item | Supplier | Part Number | Info|
@@ -21,7 +22,7 @@
 |2|M6x16 Schrauben|any|-|für Montage Aluplatte / Halter|
 |2|Unterlagsscheiben passend zu M4x16 Schrauben|any|für Montage Aluplatte / Halter|-|
 
-## Self built parts
+## DIY Parts
 | Quantity | Item | Material/Technology | File |
 |-|-|-|-|
 |1|3D Printed Rasperry Pi Cover|PLA,3D Printing|card reader cover.stl|
