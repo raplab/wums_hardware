@@ -1,8 +1,6 @@
 #SERIAL TO HID INTERFACE
 #CODE BY: TAO, RAPLAB V1.0, 12.09.2019
 #------------------------------------------------
-#This should run at start-up at the logincomputer
-#------------------------------------------------
 # pip install pyserial
 # pip install pynput
 
