@@ -23,7 +23,7 @@
 ## Self built parts
 | Quantity | Item | Material/Technology | File |
 |-|-|-|-|
-|1|3D Printed Rasperry Pi Cover|PLA,3D Printing|cover.stl|
+|1|3D Printed Rasperry Pi Cover|PLA,3D Printing|card reader cover.stl|
 |1|Shield|Teflon, Milling|shield.dxf|
 |1|Alu Platte|Aluminium, Milling|alu.dxf|
 
