@@ -18,7 +18,7 @@
 |1|Monitorhalter KG|Rose Krieger|193000042C11#MonitorHalter KG|
 |4|M4x16 Schrauben|any|für Bildschirmmontage|
 |2|M6x16 Schrauben|any|für Montage Aluplatte / Halter|
-|2|Unterlagsscheiben passend zu M4x16 Schrauben|any|any|
+|2|Unterlagsscheiben passend zu M4x16 Schrauben|any|für Montage Aluplatte / Halter|
 
 ## Self built parts
 | Quantity | Item | Material/Technology | File |
