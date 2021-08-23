@@ -1,41 +1,44 @@
-#SERIAL TO HID INTERFACE
-#CODE BY: TAO, RAPLAB V1.0, 12.09.2019
-#------------------------------------------------
+#SERIAL TO HID INTERFACE 🐍
+#CODE BY: TAO, RAPLAB V1.1, 28.08.2021
+#-------------------------------------------------------
 # pip install pyserial
 # pip install pynput
-
+#-------------------------------------------------------
 
 import serial
 import time
 from pynput.keyboard import Controller
 
-keyboard = Controller() #configure the keyboard
+def checkRFID():
+    keyboard = Controller()
 
-ser = serial.Serial('/dev/serial0') #init serial in linux '/dev/tty...'
+    ser = serial.Serial('/dev/serial0', 9600, timeout=1)
 
-print("RFID reader Init...")
+    time.sleep(0.5)
+    ser.write(b'pon') #init reader
+    time.sleep(0.5)
+    ser.write(b'c') #switch reader to continous mode
+    ser.flushInput()
+    time.sleep(0.5)
+    print("RFID reader configured and ready!")
 
-time.sleep(0.5) #add timeout to ensure a propper handshake and avoid stalling
-ser.write(b'pon')
-time.sleep(0.5) #add timeout to ensure a propper handshake and avoid stalling
-ser.write(b'c')
-ser.flushInput() 
-time.sleep(0.5) #timeout to avoid stalling of the port
+    while True:
+        serial_stream = ser.readline()
+        if len(serial_stream) == 16 :
+            ser.write(b'.') #abort continous read
+            ser.write(b's') #read single card
+            serial_msg = ser.readline()
+            rfid_str = serial_msg.decode("utf-8")
+            rfid_str = rfid_str.rstrip()
+            rfid_str += "\r"
 
-print("RFID reader configured and ready!")
+            keyboard.type(cleanmessage)
 
-while True: #running the loop
-    sermessage = ser.readline()
-    if len(sermessage)==16:
-	ser.write(b'.') #abort continous read
-	time.sleep(0.1)
-	ser.write(b's') #read single card
-	smsg = ser.readline()
-        messagestring = smsg.decode("utf-8")
-        cleanmessage = messagestring.rstrip()
-        cleanmessage += "\r" #this enables auto enter
-	print(cleanmessage)
-        keyboard.type(cleanmessage) #use the hid-keyboard to virtually type the result
-        time.sleep(10) #wait in seconds - the user is turing on a machine or doing something else
-	ser.flushInput()
-	ser.write(b'c') #continue with continous mode!
+            time.sleep(2)
+
+            ser.flushInput()
+            ser.write(b'c') #continue with continous mode!
+
+
+if __name__ == "__main__":
+    checkRFID()
