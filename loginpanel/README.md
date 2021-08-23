@@ -23,6 +23,7 @@
 |2|Unterlagsscheiben passend zu M4x16 Schrauben|any|für Montage Aluplatte / Halter|-|
 
 ## DIY Parts
+see -> parts to manufacture
 | Quantity | Item | Material/Technology | File |
 |-|-|-|-|
 |1|3D Printed Rasperry Pi Cover|PLA,3D Printing|card reader cover.stl|
