@@ -9,6 +9,7 @@
 |1 |Steckernetzteil 3 - 12 V|Brack|https://beta.brack.ch/sonero-steckernetzteil-3-12-v-626419|
 |1|Raspberry Pi 4 Model B - 2GB| PI-Shop|https://www.pi-shop.ch/raspberry-pi-4-model-b-2gb|
 |1|Raspberry Pi 15W Netzteil, EU, Weiss|Pi-Shop|https://www.pi-shop.ch/raspberry-pi-15w-power-supply-eu-weiss|
+|1|MicroSD Card 32GB|Pi-Shop|https://www.pi-shop.ch/sandisk-microsdhc-karte-ultra-uhs-i-a1-32-gb|
 
 ## Hardware
 | Quantity | Item | Supplier | Part Number | Info|
