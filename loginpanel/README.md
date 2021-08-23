@@ -13,7 +13,7 @@
 ## Hardware
 | Quantity | Item | Supplier | Link/Part Number/Info |
 |-|-|-|-|
-|1|Profilkonsole|Rose Krieger|193000298C66#Profilkonsole|
+|1|Profilkonsole|Rose Krieger|193000298C66|
 |1|Vesa Halterung|Rose Krieger|94371#Adpl-VESA75|
 |1|Monitorhalter KG|Rose Krieger|193000042C11#MonitorHalter KG|
 |4|M4x16 Schrauben|any|für Bildschirmmontage|
