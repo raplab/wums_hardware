@@ -26,6 +26,6 @@
 see -> parts to manufacture
 | Quantity | Item | Material/Technology | File |
 |-|-|-|-|
-|1|RFID_Reader_Cover|PLA,3D Printing|card reader cover.stl|
-|1|RFID_Reader_Mounting_Plate|POM, Milling|shield.dxf|
-|1|Wall_Mounting_Bracket|Aluminium, Milling|alu.dxf|
+|1|RFID Reader Cover|PLA,3D Printing|RFID_Reader_Cover.stl|
+|1|RFID Reader Mounting Plate|POM, Milling|RFID_Reader_Mounting_Plate.dxf|
+|1|Wall Mounting Bracket|Aluminium, Milling|Wall_Mounting_Bracket.dxf|
