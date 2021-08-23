@@ -1,17 +1,15 @@
-All the information to manufacture the parts:
+You are expected to manufacture these parts yourself. 
 
-1. **alu-part:**
+**Wall Mounting Bracket**
 
-material: 8mm aluminium, 
-info: 2x M6 threads in the center
+- material: 8mm aluminium, 
+- 2x M6 threads in the center
 
-2. **shield:**
+**RFID Reader Mounting Plate**
 
-material: 6mm POM, 
-card reader depth: 5.5mm, 
-rasperry pi depth: 2.5mm
+- material: 6mm POM, 
 
-3. **card reader cover:**
+**RFID Reader Cover**
 
-material: PLA, 
-info: use FDM printer
+- material: FDM printed PLA
+
