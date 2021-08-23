@@ -2,6 +2,8 @@
 
 ![alt text](https://raw.githubusercontent.com/raplab/wums_hardware/main/loginpanel/Photos/Assembly_View_1.jpg)
 
+![alt text](https://raw.githubusercontent.com/raplab/wums_hardware/main/loginpanel/Photos/Assembly_View_2.jpg)
+
 # Bill Of Materials
 
 ## Electronics
