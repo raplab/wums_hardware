@@ -14,8 +14,8 @@ esp.osdebug(None)
 import gc
 gc.collect()
 
-ssid = 'eth-iot'
-password = 'Gcn6mN6AKytD'
+ssid = 'your-network'
+password = 'your-password'
 
 station = network.WLAN(network.STA_IF)
 
