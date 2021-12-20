@@ -34,3 +34,8 @@ see -> parts to manufacture
 |1|RFID Reader Cover|PLA, 3D Printing|RFID_Reader_Cover.stl|
 |1|RFID Reader Mounting Plate|POM, Milling|RFID_Reader_Mounting_Plate.dxf|
 |1|Wall Mounting Bracket|Aluminium, Milling|Wall_Mounting_Bracket.dxf|
+
+## Raspberry-PI - Cardreader - Wiring
+The following diagram shows how we wire our cardreader system with a custom dupon connector cable.
+![alt text](https://raw.githubusercontent.com/raplab/wums_hardware/main/loginpanel/Photos/RaspberryPI_CardReader.png)
+
