@@ -15,3 +15,7 @@ MCP23008 I2C 8 I/O Port Expander (adafruit) for ESP32
 ## PCB Render
 
 ![WUMS PCB Render](https://github.com/raplab/wums_hardware/blob/50d4507991f43f6b0b102dc7cb3e13cc4b9887b4/toollendinglibrary/pcb/pcb.JPG)
+
+## 12V Solenoid Locks
+These can be found on many popular websites and usually have 12V and draw around 2A.
+![WUMS PCB Render](https://github.com/raplab/wums_hardware/blob/50d4507991f43f6b0b102dc7cb3e13cc4b9887b4/toollendinglibrary/pcb/pcb.JPG)
