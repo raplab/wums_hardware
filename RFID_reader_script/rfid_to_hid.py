@@ -57,4 +57,4 @@ if __name__ == '__main__':
 
     print("RFID reader configured and ready!")
 
-    loop(serial_connection, hid)
+    loop(serial_connection, keyboard)
