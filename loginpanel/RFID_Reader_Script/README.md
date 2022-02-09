@@ -1,6 +1,3 @@
-# RFID Reader Script
+# RFID Reader Documentation
 
-Requirements:
-- Raspberry PI 4
-- Omnikey 5513 reader board hf mifare easy
-- 
+Wiring and interfacing documentation
